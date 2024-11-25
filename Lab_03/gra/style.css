@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+canvas {
+  display: block;
+}
+
+/* Styl pop-upu */
+.hidden {
+  display: none;
+}
+
+#gameOverPopup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 1000;
+}
+
+#gameOverPopup h2,
+#gameOverPopup h3 {
+  margin: 10px 0;
+}
+
+#gameOverPopup button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: white;
+  background: #4b0082;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#gameOverPopup button:hover {
+  background: #6a0dad;
+}
